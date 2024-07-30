@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use('/uploads', express.static(__dirname + '/uploads'));
 
-const mongoUrl = "mongodb+srv://username:password@cluster0.prqk0n3.mongodb.net/?retryWrites=true&w=majority";
+const mongoUrl = "mongodb+srv://arpita:arpita@cluster0.t1cf5my.mongodb.net/";
 
 mongoose.connect(mongoUrl, {
     useNewUrlParser:true
