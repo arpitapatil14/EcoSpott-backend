@@ -14,7 +14,7 @@ const fs = require('fs');
 const salt = bcrypt.genSaltSync(10);
 const secret = 'fhegehggrhgrhgdhugdh';
 
-app.use(cors({credentials:true,origin:'https://eco-spott-frontend.vercel.app/'}));
+app.use(cors({credentials:true,origin:'https://eco-spott-frontend.vercel.app'}));
 app.use(express.json());
 app.use(cookieParser());
 app.use('/uploads', express.static(__dirname + '/uploads'));
